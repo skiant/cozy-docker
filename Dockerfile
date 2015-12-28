@@ -1,4 +1,5 @@
-FROM ubuntu:14.04
+# Start with the ARMv7 Ubuntu image
+FROM armv7/armhf-ubuntu:14.04
 
 ENV DEBIAN_FRONTEND noninteractive
 
